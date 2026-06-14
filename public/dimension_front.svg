@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#14141e"/>
+  
+  <!-- Wall plate (housing) -->
+  <rect x="100" y="80" width="600" height="440" rx="8" fill="#b3b3b3" stroke="#888" stroke-width="1"/>
+  
+  <!-- Glass panel -->
+  <rect x="130" y="120" width="540" height="360" rx="4" fill="#dcdcd7" stroke="#bbb" stroke-width="0.5"/>
+  
+  <!-- 4 brass buttons -->
+  <g fill="#f3cb7c" stroke="#d4a847" stroke-width="0.5">
+    <rect x="148" y="190" width="90" height="220" rx="6"/>
+    <rect x="262" y="190" width="90" height="220" rx="6"/>
+    <rect x="448" y="190" width="90" height="220" rx="6"/>
+    <rect x="562" y="190" width="90" height="220" rx="6"/>
+  </g>
+  
+  <!-- Top dimension line -->
+  <line x1="100" y1="50" x2="700" y2="50" stroke="#fff" stroke-width="2"/>
+  <line x1="100" y1="45" x2="100" y2="55" stroke="#fff" stroke-width="2"/>
+  <line x1="700" y1="45" x2="700" y2="55" stroke="#fff" stroke-width="2"/>
+  <!-- Arrow heads -->
+  <polygon points="108,50 100,43 100,57" fill="#fff"/>
+  <polygon points="692,50 700,43 700,57" fill="#fff"/>
+  <text x="400" y="38" text-anchor="middle" fill="#fff" font-family="monospace" font-size="16">86.0 mm</text>
+
+  <!-- Right dimension line -->
+  <line x1="725" y1="80" x2="725" y2="520" stroke="#fff" stroke-width="2"/>
+  <line x1="720" y1="80" x2="730" y2="80" stroke="#fff" stroke-width="2"/>
+  <line x1="720" y1="520" x2="730" y2="520" stroke="#fff" stroke-width="2"/>
+  <polygon points="725,88 718,80 732,80" fill="#fff"/>
+  <polygon points="725,512 718,520 732,520" fill="#fff"/>
+  <text x="738" y="306" text-anchor="middle" fill="#fff" font-family="monospace" font-size="16" transform="rotate(90,738,306)">86.0 mm</text>
+
+  <!-- Button detail dimension -->
+  <line x1="148" y1="580" x2="238" y2="580" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="148" y1="570" x2="148" y2="590" stroke="#888" stroke-width="1"/>
+  <line x1="238" y1="570" x2="238" y2="590" stroke="#888" stroke-width="1"/>
+  <polygon points="152,580 148,574 148,586" fill="#888"/>
+  <polygon points="234,580 238,574 238,586" fill="#888"/>
+  <text x="193" y="572" text-anchor="middle" fill="#888" font-family="monospace" font-size="11">Btn 21mm</text>
+
+  <!-- Gap dimension -->
+  <line x1="238" y1="580" x2="262" y2="580" stroke="#888" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="238" y1="570" x2="238" y2="590" stroke="#888" stroke-width="1"/>
+  <line x1="262" y1="570" x2="262" y2="590" stroke="#888" stroke-width="1"/>
+  <polygon points="242,580 238,574 238,586" fill="#888"/>
+  <polygon points="258,580 262,574 262,586" fill="#888"/>
+  <text x="250" y="572" text-anchor="middle" fill="#888" font-family="monospace" font-size="11">12mm</text>
+
+  <!-- Title -->
+  <text x="400" y="565" text-anchor="middle" fill="#666" font-family="monospace" font-size="13">FRONT VIEW</text>
+</svg>
